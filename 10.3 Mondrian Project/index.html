@@ -11,9 +11,9 @@
     Gap Colour: #000
     White: 
     Red: 
-    Black: #232629
-    Blue: #004592
-    Yellow: #F9D01E
+    Black: 
+    Blue: 
+    Yellow: 
 
     For dimensions, see dimensions.png image.
     HINT: Remember you can't change the properties of grid lines.
@@ -48,8 +48,34 @@
     }
 
     .White1 {
-
+      grid-column: span 3;
     }
+
+    .White2 {
+      grid-row: span 2;
+    }
+
+    .White3 {
+      grid-area: 2/ 2/ 4/ 4;
+    }
+
+    .Blue {
+      background-color: #004592;
+      border-bottom: 10px solid #000;
+    }
+
+    .White4 {
+      grid-row: span 2;
+    }
+
+    .Yellow {
+      background-color: #F9D01E ;
+    }
+
+    .Black {
+      background-color: #232629;
+    }
+
   </style>
 </head>
 
@@ -57,17 +83,17 @@
   <!-- Write your HTML here -->
 
   <div class="Mondarian">
-    <div class="Red"></div>
-    <div class="White1"></div>
-    <div class="White2"></div>
-    <div class="White3"></div>
+    <div class="item Red"></div>
+    <div class="item White1"></div>
+    <div class="item White2"></div>
+    <div class="item White3"></div>
 
-    <div class="Blue"></div>
-    <div class="White4"></div>
+    <div class="item Blue"></div>
+    <div class="item White4"></div>
 
     <div class="item"></div>
-    <div class="Yellow"></div>
-    <div class="Black"></div>
+    <div class="item Yellow"></div>
+    <div class="item Black"></div>
   </div>
 </body>
 
