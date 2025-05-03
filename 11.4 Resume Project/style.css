@@ -1,0 +1,18 @@
+body {
+    background-color: #FFFDF6;
+}
+
+.container {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+.d-block {
+    border-radius: 50px;
+}
