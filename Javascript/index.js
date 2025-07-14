@@ -8,8 +8,7 @@ function test() {
    a = b;
    b = c;
 
-  /*** Do not change the code bb
-   *bbelow ***/
+  /*** Do not change the code bbbbelow ***/
 
    comsole.log("a is " + a);
    console.log("b is " + b);
