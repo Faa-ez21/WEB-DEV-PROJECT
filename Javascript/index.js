@@ -8,7 +8,7 @@ function test() {
    a = b;
    b = c;
 
-  /*** Do not change the code below ***/
+  /*** Do not change the code bbbbbelow ***/
 
    comsole.log("a is " + a);
    console.log("b is " + b);
